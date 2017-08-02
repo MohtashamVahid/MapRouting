@@ -1,1 +1,1 @@
-include ':app',':maprouting'
+include ':app', ':lib'
