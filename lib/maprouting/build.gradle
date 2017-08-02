@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+
+android {
+  compileSdkVersion 25
+  buildToolsVersion "25.0.0"
+
+  defaultConfig {
+    minSdkVersion 14
+    targetSdkVersion 25
+    versionCode 1
+    versionName "1.0"
+
+    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+}
+ext {
+  BUTTERKNIFE = '8.4.0'
+  FAB = '1.6.4'
+  FIREBASE = '9.0.2'
+  MATERIAL_DIALOG = '0.9.1.0'
+  MATERIAL_DRAWER = '5.7.0'
+  MATERIAL_EDIT_TEXT = '2.1.4'
+  PLAY_SERVICE = '9.0.2'
+  SLIDING_TUTORIAL = '1.0.3'
+  SUPPORT_LIBRARY = '25.3.1'
+  RETROFIT = '2.2.0'
+  SMART_TAB_LAYOUT = '1.6.1'
+}
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+  androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    exclude group: 'com.android.support', module: 'support-annotations'
+  })
+  compile 'com.android.support:appcompat-v7:25.3.1'
+  testCompile 'junit:junit:4.12'
+  compile("com.google.android.gms:play-services:${PLAY_SERVICE}") {
+    exclude module: 'play-services-ads-lite'
+    exclude module: 'play-services-auth'
+    exclude module: 'play-services-cast'
+    exclude module: 'play-services-fitness'
+    exclude module: 'play-services-wearable'
+    exclude module: 'play-services-wallet'
+    exclude module: 'play-services-vision'
+    exclude module: 'play-services-games'
+    exclude module: 'play-services-plus'
+    exclude module: 'play-services-safetynet'
+    exclude module: 'play-services-appinvite'
+    exclude module: 'play-services-ads'
+    exclude module: 'play-services-drive'
+    exclude module: 'play-services-tagmanager'
+    exclude module: 'play-services-tagmanager-api'
+    exclude module: 'play-services-panorama'
+    exclude module: 'play-services-nearby'
+  }
+  compile "com.squareup.retrofit2:retrofit:${RETROFIT}"
+  compile "com.squareup.retrofit2:converter-gson:${RETROFIT}"
+}
