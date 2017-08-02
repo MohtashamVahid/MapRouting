@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "79430780857",
+    "firebase_url": "https://maprouting-3290a.firebaseio.com",
+    "project_id": "maprouting-3290a",
+    "storage_bucket": "maprouting-3290a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79430780857:android:605e0cb3ac81554f",
+        "android_client_info": {
+          "package_name": "com.golrang.farkhani.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79430780857-m38hseu5uqp8d5upp74shdbsam0mfi6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.golrang.farkhani.myapplication",
+            "certificate_hash": "6b052b99b004b40d43f6d13f65d6d4489946fff8"
+          }
+        },
+        {
+          "client_id": "79430780857-cb7b52q4mhhkkjh0a39jlbfpsomec8je.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP5GC4Qsc8CUxLjQ6kbeSd4EekBGcLHRA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79430780857-cb7b52q4mhhkkjh0a39jlbfpsomec8je.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

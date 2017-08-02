@@ -18,15 +18,42 @@ android {
     }
   }
 }
+ext {
+  FIREBASE = '9.0.2'
+  PLAY_SERVICE = '9.0.2'
 
+}
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
   androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
     exclude group: 'com.android.support', module: 'support-annotations'
   })
   compile 'com.android.support:appcompat-v7:25.3.1'
-  compile 'com.google.android.gms:play-services-maps:10.2.6'
-  testCompile 'junit:junit:4.12'
+   testCompile 'junit:junit:4.12'
   compile project(path: ':mainlib')
   compile project(path: ':maprouting')
+  compile "com.google.firebase:firebase-crash:${FIREBASE}"
+  compile "com.google.firebase:firebase-core:${FIREBASE}"
+  compile("com.google.android.gms:play-services:${PLAY_SERVICE}") {
+    exclude module: 'play-services-ads-lite'
+    exclude module: 'play-services-auth'
+    exclude module: 'play-services-cast'
+    exclude module: 'play-services-fitness'
+    exclude module: 'play-services-wearable'
+    exclude module: 'play-services-wallet'
+    exclude module: 'play-services-vision'
+    exclude module: 'play-services-games'
+    exclude module: 'play-services-plus'
+    exclude module: 'play-services-safetynet'
+    exclude module: 'play-services-appinvite'
+    exclude module: 'play-services-ads'
+    exclude module: 'play-services-drive'
+    exclude module: 'play-services-tagmanager'
+    exclude module: 'play-services-tagmanager-api'
+    exclude module: 'play-services-panorama'
+    exclude module: 'play-services-nearby'
+  }
 }
+
+apply plugin: 'com.google.gms.google-services'
+
