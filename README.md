@@ -8,6 +8,6 @@ simple way to rout to point
         .build();
   )
   
-  [logo]:https://github.com/gholamfarkhani/MapRouting/blob/master/map_ruting_screenshot.png "map"
-![Minion](http://octodex.github.com/images/minion.png)
+  
+![Minion](https://github.com/gholamfarkhani/MapRouting/blob/master/map_ruting_screenshot.png)
  
