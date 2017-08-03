@@ -30,7 +30,7 @@ dependencies {
   })
   compile 'com.android.support:appcompat-v7:25.3.1'
    testCompile 'junit:junit:4.12'
-  compile project(path: ':lib')
+  compile project(path: ':maprouting')
   compile "com.google.firebase:firebase-crash:${FIREBASE}"
   compile "com.google.firebase:firebase-core:${FIREBASE}"
   compile("com.google.android.gms:play-services:${PLAY_SERVICE}") {

@@ -8,17 +8,18 @@ simple way to rout to point
  
  
  <pre><code> 
-	allprojects {
-			repositories {
-				...
-				maven { url 'https://jitpack.io' }
-			}
+allprojects {
+	repositories {
+	...
+		maven { url 'https://jitpack.io' }
 		}
-	</code></pre>
+	}
+</code></pre>
 	
 <pre><code> 
-	dependencies {
-	        compile 'com.github.gholamfarkhani.MapRouting:mainlib:1.0.0'
+dependencies {
+dependencies {
+	        compile 'com.github.gholamfarkhani.MapRouting:maprouting:1.0.0'
 	}
 </code></pre>
 	
