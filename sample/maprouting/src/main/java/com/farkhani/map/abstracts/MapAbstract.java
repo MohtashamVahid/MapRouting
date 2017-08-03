@@ -1,4 +1,4 @@
-package com.golrang.farkhani.mapdiraction.abstracts;
+package com.farkhani.map.abstracts;
 
 /**
  * Created by farkhani on 02/08/2017.

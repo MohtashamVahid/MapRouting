@@ -1,4 +1,4 @@
-package com.golrang.farkhani.mapdiraction.model;
+package com.farkhani.map.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

@@ -30,7 +30,6 @@ dependencies {
   })
   compile 'com.android.support:appcompat-v7:25.3.1'
    testCompile 'junit:junit:4.12'
-  compile project(path: ':maprouting')
   compile "com.google.firebase:firebase-crash:${FIREBASE}"
   compile "com.google.firebase:firebase-core:${FIREBASE}"
   compile("com.google.android.gms:play-services:${PLAY_SERVICE}") {
@@ -52,6 +51,7 @@ dependencies {
     exclude module: 'play-services-panorama'
     exclude module: 'play-services-nearby'
   }
+  compile project(path: ':maprouting')
 }
 
 apply plugin: 'com.google.gms.google-services'

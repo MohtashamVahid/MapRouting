@@ -1,4 +1,4 @@
-package com.golrang.farkhani.mapdiraction;
+package com.farkhani.map;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -19,6 +19,6 @@ import static org.junit.Assert.*;
     // Context of the app under test.
     Context appContext = InstrumentationRegistry.getTargetContext();
 
-    assertEquals("com.golrang.farkhani.mapdiraction.test", appContext.getPackageName());
+    assertEquals("com.farkhani.map.test", appContext.getPackageName());
   }
 }

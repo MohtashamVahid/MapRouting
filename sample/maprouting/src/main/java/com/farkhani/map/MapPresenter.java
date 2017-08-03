@@ -1,18 +1,17 @@
-package com.golrang.farkhani.mapdiraction;
+package com.farkhani.map;
 
 import android.graphics.Color;
-import com.golrang.farkhani.mapdiraction.model.DirectionResults;
-import com.golrang.farkhani.mapdiraction.model.Location;
-import com.golrang.farkhani.mapdiraction.model.Route;
-import com.golrang.farkhani.mapdiraction.model.RouteDecode;
-import com.golrang.farkhani.mapdiraction.model.Steps;
+import com.farkhani.map.model.DirectionResults;
+import com.farkhani.map.model.Location;
+import com.farkhani.map.model.Route;
+import com.farkhani.map.model.RouteDecode;
+import com.farkhani.map.model.Steps;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
-import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 import java.util.ArrayList;

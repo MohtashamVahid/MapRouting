@@ -1,4 +1,4 @@
-package com.golrang.farkhani.mapdiraction.model;
+package com.farkhani.map.model;
 
 import com.google.android.gms.maps.model.LatLng;
 import java.util.ArrayList;

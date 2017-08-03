@@ -1,6 +1,6 @@
-package com.golrang.farkhani.mapdiraction;
+package com.farkhani.map;
 
-import com.golrang.farkhani.mapdiraction.abstracts.MapAbstract;
+import com.farkhani.map.abstracts.MapAbstract;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.LatLng;
 
@@ -8,13 +8,13 @@ import com.google.android.gms.maps.model.LatLng;
  * Created by farkhani on 02/08/2017.
  */
 
-public class MapDirection extends MapAbstract implements MapContractor.View {
+public class MapRouting extends MapAbstract implements MapContractor.View {
   private LatLng originPoint;
   private LatLng destinationPoint;
   private GoogleMap googleMap;
   private MapContractor.Presenter presenter;
 
-  private MapDirection(Builder builder) {
+  private MapRouting(Builder builder) {
     this.originPoint = builder.originPoint;
     this.destinationPoint = builder.destinationPoint;
     this.googleMap = builder.googleMap;
@@ -43,8 +43,8 @@ public class MapDirection extends MapAbstract implements MapContractor.View {
 
     }
 
-    public MapDirection build() {
-      return new MapDirection(this);
+    public MapRouting build() {
+      return new MapRouting(this);
     }
 
     public Builder setOriginPoint(LatLng originPoint) {

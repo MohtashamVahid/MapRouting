@@ -1,6 +1,6 @@
-package com.golrang.farkhani.mapdiraction.interfaces;
+package com.farkhani.map.interfaces;
 
-import com.golrang.farkhani.mapdiraction.model.DirectionResults;
+import com.farkhani.map.model.DirectionResults;
 
 public interface WebApiDirectionInterface extends WebApiErrorInterface {
   void dataReceived(DirectionResults body);

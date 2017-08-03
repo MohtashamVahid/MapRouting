@@ -1,6 +1,6 @@
-package com.golrang.farkhani.mapdiraction;
+package com.farkhani.map;
 
-import com.golrang.farkhani.mapdiraction.model.DirectionResults;
+import com.farkhani.map.model.DirectionResults;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Polyline;

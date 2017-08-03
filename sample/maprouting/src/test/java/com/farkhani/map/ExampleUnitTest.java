@@ -1,4 +1,4 @@
-package com.golrang.farkhani.mapdiraction;
+package com.farkhani.map;
 
 import org.junit.Test;
 

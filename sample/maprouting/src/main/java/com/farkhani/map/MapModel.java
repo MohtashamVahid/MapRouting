@@ -1,8 +1,8 @@
-package com.golrang.farkhani.mapdiraction;
+package com.farkhani.map;
 
-import com.golrang.farkhani.mapdiraction.connection.DirectionConnection;
-import com.golrang.farkhani.mapdiraction.interfaces.WebApiDirectionInterface;
-import com.golrang.farkhani.mapdiraction.model.DirectionResults;
+import com.farkhani.map.connection.DirectionConnection;
+import com.farkhani.map.interfaces.WebApiDirectionInterface;
+import com.farkhani.map.model.DirectionResults;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Polyline;
 

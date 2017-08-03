@@ -39,6 +39,7 @@ dependencies {
   })
   compile 'com.android.support:appcompat-v7:25.3.1'
   testCompile 'junit:junit:4.12'
+
   compile("com.google.android.gms:play-services:${PLAY_SERVICE}") {
     exclude module: 'play-services-ads-lite'
     exclude module: 'play-services-auth'

@@ -1,8 +1,8 @@
-package com.golrang.farkhani.mapdiraction.connection;
+package com.farkhani.map.connection;
 
-import com.golrang.farkhani.mapdiraction.abstracts.MasterRetrofitConnection;
-import com.golrang.farkhani.mapdiraction.interfaces.WebApiDirectionInterface;
-import com.golrang.farkhani.mapdiraction.model.DirectionResults;
+import com.farkhani.map.abstracts.MasterRetrofitConnection;
+import com.farkhani.map.interfaces.WebApiDirectionInterface;
+import com.farkhani.map.model.DirectionResults;
 import com.google.android.gms.maps.model.LatLng;
 import retrofit2.Call;
 import retrofit2.Callback;

@@ -1,4 +1,3 @@
 <resources>
-  <string name="app_name">MapDiraction</string>
-  <string name="message_webservice_error_network">مشکل در ارتباط با سرور</string>
+  <string name="app_name">Map</string>
 </resources>

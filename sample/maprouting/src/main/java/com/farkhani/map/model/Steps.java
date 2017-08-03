@@ -1,4 +1,4 @@
-package com.golrang.farkhani.mapdiraction.model;
+package com.farkhani.map.model;
 
 public class Steps {
   private Location start_location;

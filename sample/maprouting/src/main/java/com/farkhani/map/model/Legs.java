@@ -1,4 +1,4 @@
-package com.golrang.farkhani.mapdiraction.model;
+package com.farkhani.map.model;
 
 import java.util.List;
 

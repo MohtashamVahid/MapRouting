@@ -2,7 +2,7 @@ package com.golrang.farkhani.myapplication.main;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import com.golrang.farkhani.mapdiraction.MapDirection;
+import com.farkhani.map.MapRouting;
 import com.golrang.farkhani.myapplication.R;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -37,7 +37,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
   public void init() {
 
-   new MapDirection.Builder().setOriginPoint(new LatLng(36.334068, 59.546783))
+   new MapRouting.Builder().setOriginPoint(new LatLng(36.334068, 59.546783))
         .setDestinationPoint(new LatLng(36.337592, 59.469463)).setGoogleMap(mMap)
         .build();
   }

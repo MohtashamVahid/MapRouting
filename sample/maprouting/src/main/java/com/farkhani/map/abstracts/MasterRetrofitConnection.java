@@ -1,7 +1,7 @@
-package com.golrang.farkhani.mapdiraction.abstracts;
+package com.farkhani.map.abstracts;
 
 import android.support.annotation.Nullable;
-import com.golrang.farkhani.mapdiraction.interfaces.WebApiErrorInterface;
+import com.farkhani.map.interfaces.WebApiErrorInterface;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.util.concurrent.TimeUnit;
