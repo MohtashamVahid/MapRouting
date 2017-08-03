@@ -9,25 +9,25 @@ simple way to rout to point
  
 <pre><code> 
 allprojects {
-repositories {
-...
-	maven { url 'https://jitpack.io' }
-	}
+  repositories {
+   ...
+   maven { url 'https://jitpack.io' }
+ }
 }
 </code></pre>
 	
 <pre><code> 
 dependencies {
    compile 'com.github.gholamfarkhani:MapRouting:1.5.0'
-	}
+}
 </code></pre>
 	
  <pre><code> 
-	 new MapDirection.Builder()
-	 .setOriginPoint(new LatLng(36.334068, 59.546783))
-	 .setDestinationPoint(new LatLng(36.337592, 59.469463))
-	 .setGoogleMap(mMap)
-	 .build();
+new MapDirection.Builder()
+ .setOriginPoint(new LatLng(36.334068, 59.546783))
+ .setDestinationPoint(new LatLng(36.337592, 59.469463))
+ .setGoogleMap(mMap)
+ .build();
 </code></pre>
 
 
