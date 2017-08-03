@@ -7,19 +7,18 @@ simple way to rout to point
  add this cod to project and init params 
  
  
- <pre><code> 
+<pre><code> 
 allprojects {
-	repositories {
-	...
-		maven { url 'https://jitpack.io' }
-		}
+repositories {
+...
+	maven { url 'https://jitpack.io' }
 	}
+}
 </code></pre>
 	
 <pre><code> 
 dependencies {
-dependencies {
-	        compile 'com.github.gholamfarkhani.MapRouting:maprouting:1.0.0'
+   compile 'com.github.gholamfarkhani:MapRouting:1.5.0'
 	}
 </code></pre>
 	
@@ -32,5 +31,5 @@ dependencies {
 </code></pre>
 
 
-   ## ScreenShots
+ ## ScreenShots
 ![Minion](https://github.com/gholamfarkhani/MapRouting/blob/master/map_ruting_screenshot.png)
