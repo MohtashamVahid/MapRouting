@@ -1,12 +1,12 @@
-# MapRouting
+#MapRouting
 simple way to rout to point 
   
 
  
- ## usage
- add this cod to project and init params 
+## usage
+add this cod to project and init params 
  
- ###In Android Studio, this line ti <root project>app\build.gradle file:	
+In Android Studio, this line ti <root project>app\build.gradle file:	
 <pre><code> 
 allprojects {
   repositories {
